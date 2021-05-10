@@ -73,7 +73,6 @@ def add_product(request):
             product = form.save(commit=False)
             product.vendor = request.user.vendor
             product.slug = slugify(product.title)
-            product.thumbnail = product.make_thumbnail(request.FILES['image'])
             product.save()
             return redirect('vendor_admin')
     else:
