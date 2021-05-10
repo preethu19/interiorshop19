@@ -1,0 +1,57 @@
+/**
+* Nav
+*/
+body{
+position: relative !important;
+padding-bottom: 13rem;
+}
+
+.navbar {
+    text-transform: uppercase;
+}
+
+    .navbar .is-dark {
+        background: #444;
+    }
+
+/**
+* Footer 
+*/
+
+.footer{
+   position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 1rem;
+  height: 80px;
+  }
+
+.footer a {
+    margin-bottom: 15px;
+    display: inline-block;
+    color: #444;
+}
+
+/**
+* Bulma overrides
+*/
+
+.input, .button {
+    border-radius: 0;
+}
+
+/**
+ * Product list item
+ */
+
+.product-list-item .box .subtitle {
+    margin-bottom: 0;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-list-item .box .price {
+    color: #888;
+}
