@@ -1,4 +1,4 @@
-# interiorshop19
+# Interiorshop (A Ecommerce website)
 
 This repository consists of files of a Ecommerce web app created with Django. This has features like:
 - View product
@@ -21,7 +21,7 @@ link : https://interiorshop19.herokuapp.com/
 
 • A glimpse of the web app:
 
- ![GIF](https://github.com/preethu19/interiorshop19/blob/main/interiorshop.gif)
+ ![GIF](https://github.com/preethu19/interiorshop19/blob/main/interiorshopgif.gif)
 
 
 # Installation
